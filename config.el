@@ -78,3 +78,5 @@
 (use-package! gptel
   :config
   (setq gptel-api-key "your key"))
+
+(global-unset-key (kbd "C-z"))
