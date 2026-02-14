@@ -80,3 +80,6 @@
   (setq gptel-api-key "your key"))
 
 (global-unset-key (kbd "C-z"))
+
+(setq-default require-final-newline nil)
+(setq-default mode-require-final-newline nil)
